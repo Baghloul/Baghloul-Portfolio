@@ -166,7 +166,7 @@
   if (typed) {
     let typed_strings = typed.getAttribute('data-typed-items')
     typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
+    new typed('.typed', {
       strings: typed_strings,
       loop: true,
       typeSpeed: 100,
